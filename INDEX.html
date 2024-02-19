@@ -1,0 +1,2760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Filter</title>
+    <style>
+        /* Add your CSS styles here */
+        #filterInput {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 200px;
+        }
+
+        #filterList li {
+            display: block;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #filterList li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="filterInput" placeholder="Filter...">
+    <ul id="filterList">
+        <li>Q.Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should
+            <p>ans= Stop the vehicle and waittill the pedestrianscross the road and thenproceed</p>
+        </li>
+
+        <li>Q.You are approaching a narrow bridge, anothervehicle is about to enter the bridge from opposite side you
+            should
+            <p>ans=Wait till the other vehicle crosses the bridge and then proceed</p>
+        </li>
+
+        <li>Q.When a vehicle is involved in an accident causinginjury to any person
+            <p>ans=Take all reasonable steps to secure medical attention to the injured and report to the nearestpolice
+                station within 24 hours</p>
+        </li>
+
+        <li>Q.On a road designated as one way
+            <p>ans=Should not drive in reverse gear</p>
+        </li>
+
+
+        <li>Q.You can overtake a vehicle in front
+            <p>ans=Through the right side of that vehicle</p>
+
+        </li>
+
+        <li>Q.When a vehicle approaches an unguarded railway  level crossing, before crossing it, the driver shall
+            <p>ans=Stop the vehicle on the left side of the road, get down from the  vehicle, go to the railway track, and ensure that no train or trolley is coming
+                from either side</p>
+        </li>
+
+        <li>Q.How can you distinguish a
+         transport vehicle
+         <p>ans=By looking at the number
+            plate of the vehicle</p>
+        </li>
+
+
+
+        <li>Q.Validity of learners licence
+         <p>ans=6 months </p>
+        </li>
+
+
+        <li>Q.In a road without footpath,
+            the pedestrians
+         <p>ans=Should walk on the right
+            side of the road</p>
+        </li>
+
+
+        <li>Q.Free passage should be
+            given to the following
+            types of vehicles
+         <p>ans=Ambulance and fire
+            service vehicles</p>
+        </li>
+
+
+        <li>Q.Vehicles proceeding from
+            opposite direction
+            should be allowed to pass
+            through ….
+         <p>ans=Your right side </p>
+        </li>
+
+
+        <li>Q.Driver of a vehicle may
+            overtake …
+         <p>ans=When the driver of the
+            vehicle in front shows
+            the signal to overtake</p>
+        </li>
+
+
+        <li>Q.Driver of a motor vehicle shall
+            drive through
+         <p>ans= The left side of the road</p>
+        </li>
+
+
+        <li>Q.When a Vehicle is parked on
+            the road side during night
+         <p>ans= The park light shall
+            remain lit</p>
+        </li>
+
+
+        <li>Q.Fog lamps are used 
+         <p>ans= When there is mist.</p>
+        </li>
+
+
+        <li>Q.Zebra lines are meant for..
+         <p>ans=pedestrians crossing </p>
+        </li>
+
+        <li>Q.When an ambulance is
+            approaching 
+         <p>ans=the driver shall allow free
+            passage by drawing to
+            the side of the road</p>
+        </li>
+
+        <li>Q.Red traffic light indicates 
+         <p>ans=stop the vehicle. </p>
+        </li>
+
+        <li>Q.Parking a vehicle in front of
+            entrance to hospital
+         <p>ans=Improper</p>
+        </li>
+
+        <li>Q.Where the slippery road sign
+            is seen on the road, the
+            driver shall
+         <p>ans=reduce the speed
+            by changing the
+            gear</p>
+        </li>
+
+        <li>Q.Overtaking is prohibited in
+            following circumstances
+         <p>ans=when it is likely to
+            cause
+            inconvenience or
+            danger to other
+            traffic</p>
+        </li>
+
+        <li>Q.Overtaking when
+            approaching a bend
+            <p>ans= not permissible</p>
+        </li>
+
+
+        <li>Q.Drunken driving 
+            <p>ans=prohibited in all vehicles </p>
+        </li>
+
+
+        <li>Q.Use of horn prohibited 
+            <p>ans= Near Hospital, Courts of
+                Law</p>
+        </li>
+
+
+        <li>Q.Rear view mirror is used 
+            <p>ans=for watching the traffic
+                approaching from behind </p>
+        </li>
+
+
+        <li>Q.Boarding in and alighting
+            from a vehicle while in motion
+            <p>ans= prohibited in all vehicles</p>
+        </li>
+
+
+        <li>Q.Parking is permitted
+            <p>ans= Where parking is not
+                prohibited</p>
+        </li>
+
+
+        <li>Q.When fuel is filled in a vehicle 
+            <p>ans=shall not smoke </p>
+        </li>
+
+
+        <li>Q.Mobile phones shall not be
+            used
+            <p>ans=While driving a vehicle  </p>
+        </li>
+
+
+        <li>Q.Overtaking is prohibited
+            <p>ans=When the road
+                ahead is not
+                clearly visible </p>
+        </li>
+
+
+        <li>Q.The pedestrians shall not
+            cross the road at sharp
+            bends or very near to a
+            stopped vehicle. Why?
+            <p>ans=Drivers of other vehicles
+                coming at a distance
+                may not see persons
+                crossing the road </p>
+        </li>
+
+
+        <li>Q.Records of a private vehicle
+            are
+            <p>ans= Registration certificate.,
+                Insurance Certificate, Tax
+                Token, Driving Licence</p>
+        </li>
+
+
+        <li>Q.While turning to a road to the
+            left of the road in which you
+            are going, you should
+            <p>ans= Show the left turn signal,
+                keep to the left side of
+                the road and turn to the
+                left.</p>
+        </li>
+
+
+        <li>Q.Validity of P.U.C.C. Pollution
+            Under Control Certificate
+            <p>ans= 6 months</p>
+        </li>
+
+
+        <li>Q.While you are driving with the
+            head light in high beam
+            during night, a vehicle
+            approaches from opposite
+            direction, you will
+            <p>ans=Dim the head light till the
+                vehicle passes </p>
+        </li>
+
+
+        <li>Q.The Driver of a vehicle
+            extends his right arm with the
+            palm downward and moves
+            the arm upward and
+            downward several times.You
+            will understandthat
+            <p>ans= He is slowing down the
+                vehicle</p>
+        </li>
+
+
+        <li>Q.Minimum age for getting a
+            licence to drive motor
+            cycle without gear
+            <p>ans=16 years  </p>
+        </li>
+
+
+        <li>Q.When you see the traffic sign
+            School, you should
+            <p>ans=Slow down and proceed
+                with caution </p>
+        </li>
+
+
+        <li>Q.While turning to the left, the
+            driver of a two wheeler shall
+            <p>ans=Show left turn signal with
+                his right hand </p>
+        </li>
+
+        <li>Q.The Signal while taking U-
+            turn
+            <p>ans=Right turn signal </p>
+        </li>
+
+           <li>Q.The driver of a vehicle shall
+            not take U-turn
+            <p>ans=In a busy road  </p>
+        </li>
+
+           <li>Q.One time tax for a new car is
+            for
+            <p>ans= 15 years</p>
+        </li>
+
+           <li>Q.Before overtaking a vehicle, it
+            should be ensured that ….
+            <p>ans=The road ahead is clearly
+                visible and it is safe to
+                overtake </p>
+        </li>
+
+           <li>Q.Number of persons can be
+            carried in the cabin of a
+            Goods Carriage
+            <p>ans=As many persons as
+                recorded in the
+                Registration Certificate </p>
+        </li>
+
+           <li>Q.When your vehicle is being
+            overtaken, you
+            should
+            <p>ans=Not obstruct the other
+                vehicle from over taking </p>
+        </li>
+
+           <li>Q.A place where parking is
+            prohibited
+            <p>ans=On foot-path </p>
+        </li>
+
+           <li>Q.The hand brake is to be used
+            <p>ans= To park a vehicle</p>
+        </li>
+
+           <li>Q.More than two persons on a
+            two wheeler is
+            <p>ans=Violation of law </p>
+        </li>
+
+           <li>Q.You want to overtake a
+            vehicle near a hospital. You
+            will
+            <p>ans= Not blow horn</p>
+        </li>
+
+           <li>Q.Using unregistered vehicle in
+            public place is
+            <p>ans= Illegal </p>
+        </li>
+
+           <li>Q.Minimum age for obtaining
+            driving licence for transport
+            vehicles.
+            <p>ans= 20 years </p>
+        </li>
+
+           <li>Q.Overtaking is prohibited in
+            the following case
+            <p>ans= Narrow bridge. </p>
+        </li>
+
+           <li>Q.If a person in charge of an
+            animal apprehending that the
+            animal may become
+            unmanageable, request to
+            stop a vehicle.
+            <p>ans=The driver shall
+                stop the vehicle. </p>
+        </li>
+
+           <li>Q.Parking prohibited in the
+            following case .
+            <p>ans=near traffic light. </p>
+        </li>
+
+           <li>Q.Over speeding……
+            <p>ans=is an offence
+                leading to
+                suspension or
+                cancellation of
+                driving licence </p>
+        </li>
+
+           <li>Q.When school buses are
+            stopped for picking up or
+            setting down students…
+            <p>ans=proceed slowly and
+                cautiously since there is
+                chance of students
+                suddenly crossing the
+                roa </p>
+        </li>
+
+           <li>Q.When a blind person crosses
+            the road holding White
+            Cane…
+            <p>ans= The driver of a
+                vehicle shall
+                consider the
+                white cane as a
+                traffic sign to
+                stop the vehicle</p>
+        </li>
+
+           <li>Q.When a motor vehicle is
+            involved in an accident….
+            <p>ans=shall report to the
+                nearest police
+                station within 24
+                hours </p>
+        </li>
+
+           <li>Q.When any property of a third
+            party is damaged due to an
+            accident
+            <p>ans= driver shall report
+                to the nearest
+                police station
+                within 24 hour</p>
+        </li>
+
+           <li>Q.When the vehicle behind has
+            begun to over take our
+            vehicle….
+            <p>ans=We shall not
+                overtake another
+                vehicle. </p>
+        </li>
+
+           <li>Q.The driver of the vehicle in
+            front has not given signal for
+            over taking…
+            <p>ans= we shall not overtake</p>
+        </li>
+
+           <li>Q.When our vehicle is being
+            over taken…
+            <p>ans= We shall not
+                increase speed</p>
+        </li>
+
+           <li>Q.Parking is prohibited in the
+            following place
+            <p>ans=Entrance of
+                hospital </p>
+        </li>
+
+           <li>Q.Parking is prohibited in the
+            following place
+            <p>ans=blocking a fire
+                hydran </p>
+        </li>
+
+           <li>Q.To carry pillion rider on a
+           motor cycle…
+            <p>ans= the vehicle shall
+            be provided with
+            foot rest, hand
+            grip and sari
+            guard</p>
+        </li>
+
+           <li>Q.Smoking while driving public
+           service vehicle
+            <p>ans= can attract
+            suspension of
+            driving licence</p>
+        </li>
+
+           <li>Q.Abandoning vehicle in a
+           public place causing in
+           convenience to others or
+           passengers
+            <p>ans= the driving
+            licence is liable to
+            be suspended or
+            cancelled</p>
+        </li>
+
+           <li>Q.Abandoning a transport
+           vehicle as a mark of protest
+           or agitation or any kind of
+           strike, in a public place or in
+           any other place causing
+           obstruction or inconvenience
+           to the public or passengers
+           or other users of such
+           places
+            <p>ans= the driving
+            licence is liable to
+            be suspended or
+            cancelled</p>
+        </li>
+
+           <li>Q.Carrying overload in goods
+           carriages
+            <p>ans=can attract suspension or
+            cancellation of driving
+            licence </p>
+        </li>
+
+           <li>Q.The driver of a taxi refusing
+           the offer for journey for the
+           reason that the distance is
+           short…
+            <p>ans=can attract
+            suspension /
+            cancellation of
+            driving licence </p>
+        </li>
+
+           <li>Q.When you reach an
+           intersection where there is
+           no signal light or police man,
+           you will…
+            <p>ans= Give way to the traffic
+            approaching the
+            intersection on your right
+            side and proceed after
+            giving necessary signals</p>
+        </li>
+
+              <li>Q.While you are approaching
+              an intersection where
+              the yellow signal light is
+              blinking, you should
+            <p>ans= Slow down the vehicle
+            and proceed only after
+            ensuring that it is safe to
+            do so</p>
+        </li>
+
+              <li>Q.Where the road is marked
+              with continuous yellow line
+              the vehicle should
+            <p>ans=Not touch or
+            cross the yellow
+            line </p>
+        </li>
+
+              <li>Q.While you are driving on
+              gradient roads, you
+              should
+            <p>ans=Give precedence to the
+            vehicles going up the hill </p>
+        </li>
+
+              <li>Q.The driver of a tractor shall
+              not carry…..
+            <p>ans= Any person other
+            than the driver</p>
+        </li>
+
+              <li>Q.While a vehicle entering a
+              main road from a branch
+              road, the driver shall give
+              preference…
+            <p>ans=To all vehicles
+            proceeding along the
+            main road </p>
+        </li>
+
+              <li>Q.You can overtake a vehicle
+              through the left side if
+            <p>ans= The driver of that
+            vehicle indicates
+            his intention to
+            turn right and
+            proceeds to the
+            center of the
+            road</p>
+        </li>
+
+              <li>Q.What is "Tail-gating" ?
+            <p>ans=Driving too close
+            behind a vehicle
+            in a dangerousmanner. </p>
+        </li>
+
+              <li>Q.A vehicle can be seized by
+              authorised officers, if
+            <p>ans= The vehicle is not
+            covered by a
+            valid registration
+            or permit</p>
+        </li>
+
+              <li>Q.Road on which driving in
+              reverse gear is prohibited…
+            <p>ans= One-way road</p>
+        </li>
+
+              <li>Q.Type of horn permitted
+            <p>ans=Electric horn </p>
+        </li>
+
+              <li>Q.If drunken driving is detected,
+              the driver is liable to be
+              punished with…
+            <p>ans= Imprisonment
+            which may extent
+            to 6 months or
+            Rs.2000/- as fine
+            or both</p>
+        </li>
+
+              <li>Q.You hold a learners licence
+              for motor cycle 
+            <p>ans= You will not carry any
+            other person on the
+            motor cycle except for
+            the purpose of getting
+            instructions from an
+            instructor who holds a
+            valid driving licence to
+            drive motor cycle</p>
+        </li>
+
+              <li>Q.When the yellow light at an
+              intersection appear on the
+              signal light, the driver of a
+              approaching vehicle
+              should…
+            <p>ans=Slow down to stop </p>
+        </li>
+
+              <li>Q.All motor vehicles must be
+              covered by….
+            <p>ans=Third party Insurance </p>
+        </li>
+
+              <li>Q.Minimum distance to be kept
+              from the vehicle going in
+              front…
+            <p>ans= safe distance according
+                to speed</p>
+        </li>
+
+              <li>Q.Minimum distance to be kept from the vehicle  going in 
+                front…
+            <p>ans=safe distance according to speed. </p>
+        </li>
+
+              <li>Q.The number of passengers 
+                permitted to be taken in 
+                private vehicle is recorded in the…..
+            <p>ans= Registration Certificate</p>
+        </li>
+
+              <li>Q.Overtaking is prohibited when 
+            <p>ans= vehicle is driven on a steep hill.</p>
+        </li>
+
+              <li>Q.If the road is marked with broken white lines,  you …
+            <p>ans=can change track if required. </p>
+        </li>
+      
+   
+
+              <li>Q.Blinking red traffic light means…
+            <p>ans=stop the vehicle and proceed if safe. </p>
+        </li>
+      
+   
+
+              <li>Q.Maximum permitted speed of a motor car on  national high way in the state…
+            <p>ans= 70 km/hour</p>
+        </li>
+      
+   
+
+              <li>Q.What is defensive driving ?
+            <p>ans=Driving cautiously anticipating 
+                violation of 
+                trafficrules and road signs both by drivers and 
+                other  road 
+                users.  </p>
+        </li>
+      
+   
+
+              <li>Q.What is meant by  stop line?
+            <p>ans= A line with 5 
+                centimeters width in white or 
+                yellowcolour at 
+                the approach of road junction or  pedestrian 
+                crossing</p>
+        </li>
+      
+   
+
+              <li>Q.Before starting the engine of a vehicle….
+            <p>ans=Before starting the engine of a vehicle…. </p>
+        </li>
+      
+   
+
+              <li>Q.Maximum permissible speed of  a motor cycle…
+            <p>ans= 50 Km/hr</p>
+        </li>
+      
+   
+
+              <li>40.The only vehicle which is 
+                permitted to be driven at a 
+                speed exceeding 60 Km/hr…
+            <p>ans=Motor Car </p>
+        </li>
+      
+   
+
+              <li>40.Maximum permissible speed of a motor car near 
+                educational institution …..
+            <p>ans= 25 km/hour</p>
+        </li>
+      
+   
+
+              <li>40.Maximum permitted speed of 
+                trucks on national high way in
+                the state….
+            <p>ans= 60 km/hour</p>
+        </li>
+      
+   
+
+              <li>Q.Maximum permissible speed of a two wheeler   near 
+                educational institution….
+            <p>ans= 25 km/hour</p>
+        </li>
+      
+   
+
+              <li>Q.Projection of load upto one metre (100 cms)  towards back is permitted…..
+            <p>ans= in goods carriages</p>
+        </li>
+      
+         <li>Q.When lorries are loaded…
+            <p>ans=The load shall not project on both sides.</p>
+         </li>
+
+      
+         <li>Q.Maximum length of load that can be projected  from the 
+            rear part of a goods 
+            carriage….
+            <p>ans=100 cm</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed of  heavy motor  vehicles in 
+            the cities……..
+            <p>ans=45 Km/hr</p>
+         </li>
+
+      
+         <li>Q.Maximum distance allowed between towing and towed vehicles…..
+            <p>ans=5 meters</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed of a motor cycle in  cities….
+            <p>ans=40 km/hour</p>
+         </li>
+
+      
+         <li>Q.You are driving on a two-lane
+            street, vehicle in front of
+            you is moving very slowly and
+            the road ahead is clear for
+            overtaking, you should .. 
+            <p>ans=Pass the vehicle
+                from the left hand
+                side</p>
+         </li>
+
+      
+         <li>Q.Maximum speed permitted
+            for vehicles towing another
+            vehicle
+            <p>ans=24 km/hour</p>
+         </li>
+
+      
+         <li>Q.Motor vehicle which is not
+            permitted to drive in ghat
+            roads at a speed of more
+            than 30 Km/h…….
+            <p>ans=motor car</p>
+         </li>
+
+      
+         <li>Q.Circumstances in which a
+            motor cycle can be driven at
+            the speed of 60 km/hour…..
+            <p>ans=Under no circumstances. 3</p>
+         </li>
+
+      
+         <li>Q.The maximum speed
+            permitted for motor cycles in
+            city during night time….
+            <p>ans=30 Km/hr </p>
+         </li>
+
+      
+         <li>Q.Maximum permitted weight
+            that can be carried on a
+            goods carriage….
+            <p>ans=allowed as per permit </p>
+         </li>
+
+      
+         <li>Q.The minimum fine for over -
+            loading in goods carriage
+            <p>ans=Rs- 2000/- </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of an autorickshaw near
+            educational inistitution….
+            <p>ans=25 km/hour </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of a light motor vehicle near
+            educational institution
+            <p>ans=25 km/hour </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of motor car on ghat
+            roads….
+            <p>ans=40 km/hour</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of motor cycle on ghat
+            roads
+            <p>ans=40 km/hour </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of an autorickshaw….
+            <p>ans=40 Km/h</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of a light motor vehicle
+            <p>ans=60 Km/hr</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of a medium motorvehicle…
+            <p>ans=65 Km/hr</p>
+         </li>
+
+      
+         <li>Q.According to section 112 of
+            the Motor Vehicles Act
+            1988…
+            <p>ans=Speed limit shall
+                not be exceeded</p>
+         </li>
+
+      
+         <li>Q.Section 113 of the Motor
+            Vehicle Act 1988 stipulates
+            that the driver should not
+            drive a vehicle….
+            <p>ans=Exceeding the weight
+                permitted to carry</p>
+         </li>
+
+      
+         <li>Q.Maximum speed allowed to
+            vehicles passing a
+            procession…
+            <p>ans=15 KM/hr </p>
+         </li>
+
+      
+         <li>Q.The height limit of load on
+            goods vehicle from ground
+            level…
+            <p>ans=3.8 meters </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of heavy motor vehicle near
+            education inistitution
+            <p>ans=15 km/hour </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of heavy passenger motor
+            vehicle near educational
+            institution 
+            <p>ans=15 km/hour</p>
+         </li>
+
+      
+         <li>Q.According to section 129 of
+            Motor Vehicle Act 1988 a
+            person driving a motor cycle
+            shall…
+            <p>ans=wear helmet</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of a medium motor vehicle
+            near educational institution
+            <p>ans15 km/hour p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of autorickshaws on ghat
+            road…
+            <p>ans=30 km/hour </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of heavy motor vehicles on
+            ghat roads…
+            <p>ans=35 km/hour</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of autorikshaw in cites and
+            municipal towns…
+            <p>ans=30 Km/hr </p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of heavy motor vehicles…
+            <p>ans=65 Km/hr</p>
+         </li>
+
+      
+         <li>Q.Maximum permissible speed
+            of medium motor vehicles on
+            ghat roads
+            <p>ans=35 km/hour </p>
+         </li>
+
+      
+         <li>Q.You wish to take "U" turn at
+            an intersection controlled by
+            a traffic light you should
+            <p>ans=Make the "U" turn if there
+                is a policeman at the
+                intersection</p>
+         </li>
+
+      
+         <li>Q.Zig-Zag driving is…
+            <p>ans=Dangerous to all at all
+                times</p>
+         </li>
+
+
+    
+         <li>Q.You are on a long downhill
+            slope. What should you do to
+            help control the speed of your
+            vehicle 
+            <p>ans=change to low
+                gear</p>
+         </li>
+
+
+    
+         <li>Q.To supervise a learner driver
+            you MUST….
+            <p>ans=Be an approved
+                driving instructor</p>
+         </li>
+
+
+    
+         <li>Q.While on a round about
+            <p>ans=traffic on the roundabout
+                has right of way</p>
+         </li>
+
+
+    
+         <li>Q.It is essential to wear a
+            helmet while driving a two-
+            wheeler because….
+            <p>ans=It is for your
+                individual safety</p>
+         </li>
+
+
+    
+         <li>Q.When you shall sound the
+            horn of your vehicle ?
+            <p>ans=to give you right
+                of way</p>
+         </li>
+
+
+    
+         <li>Q.You are behind a bus that
+            has stopped to pickup or
+            drop off passengers you
+            should…..
+            <p>ans=wait behind
+                patientl</p>
+         </li>
+
+
+    
+         <li>Q.You are overtaking a car at
+            night. You must ensure
+            that….
+            <p>ans=you flash headlamps
+                before overtaking</p>
+         </li>
+
+
+    
+         <li>Q.A flashing yellow signal is
+            used when….
+            <p>ans=you should slow down &
+                proceed with caution</p>
+         </li>
+
+
+    
+         <li>Q.You stop for pedestrians
+            waiting to cross at a
+            zebra crossing. They do not
+            start to cross. What should
+            you do 
+            <p>ans=be patient and wait </p>
+         </li>
+
+
+    
+         <li>Q.You are allowed to park…
+            <p>ans=neither of these two
+                alternatives</p>
+         </li>
+
+
+    
+         <li>Q.A high beam in foggy
+            conditions…
+            <p>ans=is bad because it reflects
+                back and can dazzle</p>
+         </li>
+
+
+    
+         <li>Q.Dipping your lights is
+            necessary when…
+            <p>ans=it is foggy</p>
+         </li>
+
+
+    
+         <li>Q.When approaching a
+            crossing where you are to
+            go straight
+            <p>ans=change lanes at least 50
+                mts ahead to the middle
+                lane</p>
+         </li>
+
+
+    
+         <li>Q.You are driving. A vehicle
+            comes up quickly behind,
+            flashing head lamps. You
+            should…..
+            <p>ans=allow the vehicle to over
+                take, if safe</p>
+         </li>
+
+
+    
+         <li>Q.When must you use a dipped
+            high beam headlight during
+            the day 
+            <p>ans=in poor visibility
+                and highways</p>
+         </li>
+
+
+    
+         <li>Q.You are driving in rain. Why
+            should you keep well back
+            from the vehicle in front ?
+            <p>ans=in case it stop suddenly </p>
+         </li>
+
+
+    
+         <li>Q.What can cause hard
+            steering
+            <p>ans=under inflated tyre</p>
+         </li>
+
+
+    
+         <li>Q.Motor cyclists usually cause
+            hazard by   
+            <p>ans=all of the above</p>
+         </li>
+
+
+    
+         <li>Q.You are waiting at a T-
+            Junction, A vehicle is coming
+            from the left with right signal
+            flashing, you should
+            <p>ans=wait until the vehicle turn
+                to right side</p>
+         </li>
+
+
+    
+         <li>Q.While you reach a junction
+            with limited visibility you
+            should
+            <p>ans=look both ways
+                and move
+                carefully</p>
+         </li>
+
+
+    
+         <li>Q.You should switch on your
+            hazard warning lights
+            <p>ans=When your vehicle is
+                parked and the same is
+                causing inconvenience to
+                other road usersp>
+         </li>
+
+
+    
+         <li>Q.You are driving on a well-lit
+            motor way at night, you must
+            <p>ans=always use your head
+                lights in low beam</p>
+         </li>
+
+
+    
+         <li>Q.Anti lock braking system
+            prevents wheels from locking.
+            This avoid tyres to
+            <p>ans=skid</p>
+         </li>
+
+
+    
+         <li>Q.While travelling over motor
+            way at night with other
+            vehicles just ahead, better
+            the switched on lights should
+            be
+            <p>ans=low beam head light</p>
+         </li>
+
+
+    
+         <li>Q.A cyclist is signalling to turn
+            right and drawn to center of
+            the road, you should
+            <p>ans=over take through
+                left side</p>
+         </li>
+
+
+    
+         <li>Q.Driving at high speed 
+            <p>ans=reduces time to react to
+                hazard</p>
+         </li>
+
+
+    
+         <li>Q.While driving, avoid
+            <p>ans=reacting to wrong
+                behaviour of other drivers</p>
+         </li>
+
+
+    
+         <li>Q.The continuous yellow line in
+            the centre of the road means
+            <p>ans=do not over take </p>
+         </li>
+
+
+    
+         <li>Q.In this carriage way you can
+            drive
+            <p>ans=below 50 km/hr</p>
+         </li>
+
+
+    
+         <li>Q.When you approach a bridge
+            you should
+            <p>ans=slow down and
+                do not over take</p>
+         </li>
+
+
+    
+         <li>Q.When approaching a right
+            hand curve, you should keep
+            well to the left to
+            <p>ans=improve your
+                view of the road</p>
+         </li>
+
+
+    
+         <li>Q.While you are approaching a
+            staggered junction, You
+            should
+            <p>ans=slow the vehicle</p>
+         </li>
+
+
+    
+         <li>Q.At the Blind Junction you
+            must stop
+            <p>ans=behind the line and move
+                forward slowly as vision
+                improves</p>
+         </li>
+
+
+    
+         <li>Q.You entered a one-way in
+            the opposite direction
+            unknowingly, you should
+            <p>ans=Turn back carefully and
+                drive away</p>
+         </li>
+
+
+    
+         <li>Q.While driving through a main
+            road another vehicle is
+            reversing from a side road,
+            You should
+            <p>ans=sound your horn and be
+                prepared to stop</p>
+         </li>
+
+
+    
+         <li>Q.Approaching a cross road,
+            the driver of the long vehicle
+            ahead of you, signals right
+            and moves to left, You
+            should
+            <p>ans=wait behind the vehicle</p>
+         </li>
+
+
+    
+         <li>Q.Basic rule on a two lane high
+            way is
+            <p>ans=keep to the left
+                lane unless over
+                taking</p>
+         </li>
+
+
+    
+         <li>Q.You meet an obstruction on
+            your side of the road, You
+            should
+            <p>ans=give way to on coming
+               traffic</p>
+         </li>
+
+    
+         <li>Q.The white line along the side
+            of the road
+            <p>ans=edge of carriage way</p>
+         </li>
+
+    
+         <li>Q.The mandatory signs giving
+            orders are mostly in
+            <p>ans=</p>
+         </li>
+
+    
+         <li>Q.Red/Blue circles
+            <p>ans=</p>
+         </li>
+
+    
+         <li>Q.This line means 
+            <p>ans=cross it when it is safe and
+               come back after over
+               taking</p>
+         </li>
+
+    
+         <li>Q.Vehicles adjacent to the solid
+            line
+            <p>ans=cannot cross for over
+               taking</p>
+         </li>
+
+    
+         <li>Q.Before you make an "U" turn
+            you should
+            <p>ans=show the signal for a right
+               turn , watch in the rear
+               wiew mirror</p>
+         </li>
+
+    
+         <li>Q.While taking "U" turn in this
+            road, You should
+            <p>ans=Move forward
+               since prohibited</p>
+         </li>
+
+    
+         <li>Q.When you are moving from a
+            parking place, You should
+            <p>ans=use the rear view
+               mirrors, check in
+               the blind spot
+               and give signal</p>
+         </li>
+
+    
+         <li>Q.When do you stop on a motor
+            way
+            <p>ans=all of the above</p>
+         </li>
+
+    
+         <li>Q.You are intending to turn left ,
+            you should position your
+            vehicle at
+            <p>ans=the left hand lane </p>
+         </li>
+
+    
+         <li>Q.You are in a wrong lane while
+            approaching a busy Junction
+            you should
+            <p>ans=continue in that
+               lane</p>
+         </li>
+
+    
+         <li>Q.When going straight ahead at
+            a round about
+            <p>ans=No signals is required</p>
+         </li>
+
+    
+         <li>Q.You must not reverse your
+            vehicle
+            <p>ans=all of the above</p>
+         </li>
+
+    
+         <li>Q.When do you reverse from a
+            side road in to a main road
+            <p>ans=legally not permitted</p>
+         </li>
+
+    
+         <li>Q.When approaching from the
+            rear, where two lanes of
+            traffic have stopped at a
+            signal, you should
+            <p>ans=stop behind the last
+               vehicle in the appropriate
+               lane</p>
+         </li>
+
+    
+         <li>Q.Rear Mirror is slightly curved
+            to
+            <p>ans=give a wider field
+               of vision</p>
+         </li>
+
+    
+         <li>Q.Noise pollution may result in 
+            <p>ans=all of the above</p>
+         </li>
+
+    
+         <li>Q.Air pollution affects
+            <p>ans=all of the above </p>
+         </li>
+
+    
+         <li>Q.Fitment of multi toned horns
+            on a motor vehicle is
+            <p>ans=an offence under the law
+               as it causes noise
+               pollution</p>
+         </li>
+
+    
+         <li>Q.Your vehicle pulls to one side
+            while braking, You should
+            <p>ans=consult your mechanic </p>
+         </li>
+
+    
+         <li>Q.What is the common cause
+            of skidding
+            <p>ans=both of the above </p>
+         </li>
+
+    
+         <li>Q.While travelling you are
+            dazzled by head lights of on
+            coming vehicle, you should
+            <p>ans=slow down and stop </p>
+         </li>
+
+    
+         <li>Q.What is blind spot 
+            <p>ans=An area not seen
+               in your rear view
+               mirrors</p>
+         </li>
+
+    
+         <li>Q.While approaching a road
+            under repair, you comply the
+            permitted speed limit
+            <p>ans=at all times</p>
+         </li>
+
+    
+         <li>Q.Section 185 of MV Act
+            pertains to
+            <p>ans=Drunken driving</p>
+         </li>
+
+    
+         <li>Q.Dangerous driving is
+            <p>ans=punishable offence under
+               section 184of M.V. act</p>
+         </li>
+
+    
+         <li>Q.An accident has just
+            happened and the injured
+            person is lying on the road,
+            you should
+            <p>ans=protect the area, give first
+               aid ,take the injured to
+               the hospital and inform
+               the authorities</p>
+         </li>
+
+    
+         <li>Q.What is the main aim of the
+            first aid
+            <p>ans=To prevent aggravating
+               the injury and its effects</p>
+         </li>
+
+    
+         <li>Q.How does alcohol affect your
+            driving
+            <p>ans=it reduce your
+               concentration and
+               attention</p>
+         </li>
+
+    
+         <li>Q.Which of these lights will
+            come after Amber at a traffic
+            light
+            <p>ans=Red </p>
+         </li>
+
+    
+         <li>Q.While driving you start feeling
+            tired or unable to
+            concentrate, You should
+            <p>ans=Stop as soon as
+               it is safe to do so
+               and take rest</p>
+         </li>
+
+    
+         <li>Q.You are drivng at night, what
+            can you do to help you to
+            keep alert
+            <p>ans=walk around in fresh air
+               after a rest stop</p>
+         </li>
+
+    
+         <li>Q.You are driving a car during a
+            journey you are feeling ill and
+            unable to concentrate, what
+            should you do?
+            <p>ans=stop in a safe place and if
+               possible seek for medical
+               attention</p>
+         </li>
+
+    
+         <li>Q.Anti lock braking system is
+            designed to
+            <p>ans=prevent wheels from
+               locking up on braking and
+               avoid skidding of the
+               tyres</p>
+         </li>
+
+    
+         <li>Q.What is "brake fade"
+            <p>ans=reduction of braking
+               effectiveness</p>
+         </li>
+
+    
+         <li>Q.To prevent brake fade while
+            descending you should
+            <p>ans=select a suitable higher
+               power gear and apply
+               brakes if only necessary</p>
+         </li>
+
+    
+         <li>Q.When stopping on an uphill
+            gradient, one should
+            <p>ans=Hold the vehicle applying
+               parking brake after
+               stopping</p>
+         </li>
+
+    
+         <li>Q.You are driving behind a
+            large vehicle, how can you
+            improve your view ahead?
+            <p>ans=Stay further back </p>
+         </li>
+
+    
+         <li>Q.While driving through a
+            flooded road what should you
+            do?
+            <p>ans=Watch flood level guage
+               drive in high torque gear
+               with high acceleration</p>
+         </li>
+
+    
+         <li>Q.Driving the vehicle in a
+            neutral gear in down hill is
+            dangerous because it affects
+            the
+            <p>ans=Brake system </p>
+         </li>
+
+    
+         <li>Q.what is the benefit of power
+            assisted steering
+            <p>ans=reduce driving effort </p>
+         </li>
+
+    
+         <li>Q.How can you avoid harsh
+            driving?
+            <p>ans=plan and take earlier
+               action in using brake</p>
+         </li>
+
+    
+         <li>Q.On which occasions would
+            passengers be most likely to
+            notice weight transfer
+            <p>ans=both of the above </p>
+         </li>
+
+    
+         <li>Q.Which of the following should
+            you do before a bend, round
+            about or corner?
+            <p>ans=both of the above </p>
+         </li>
+
+
+    
+         <li>Q.Hazard warning lamps may
+            only be used at certain times
+            <p>ans=for emergency parking
+               especially on high ways
+               and busy roads</p>
+         </li>
+
+
+    
+         <li>Q.A laminated safety wind
+            screen glass is one which
+            <p>ans=both of the above</p>
+         </li>
+
+
+    
+         <li>Q.What must you do if your
+            vehicle is involved in an
+            accident
+            <p>ans=stop at the scene
+               of the accident,
+               give First Aid to
+               the victim if
+               possible and help
+               him to get
+               medical attention</p>
+         </li>
+
+
+    
+         <li>Q.Your vehicle has hit a parked
+            vehicle. The owner of that
+            vehicle could not be traced
+            out at the time, you must
+            <p>ans=inform the police station
+               having jurisdiction over
+               the place in which the
+               accident occurred within
+               24 hours</p>
+         </li>
+
+
+    
+         <li>Q.While driving your vehicle on
+            a motor way a front tyre gets
+            burst. You should
+            <p>ans=hold the steering wheel
+               firmly and stop safely by
+               using brake</p>
+         </li>
+
+
+    
+         <li>Q.Motor cyclist are advised to
+            wear ------------------------type
+            of clothing at night to make
+            them visible to other road
+            users
+            <p>ans=bright clothing </p>
+         </li>
+
+
+    
+         <li>Q.Before you open the right
+            side doors on parking, you
+            should
+            <p>ans=ensure that no
+               vehicle is passing
+               by</p>
+         </li>
+
+
+    
+         <li>Q.Which of the following is most
+            important when loading a
+            vehicle?
+            <p>ans=spreading the load evenly </p>
+         </li>
+
+
+    
+         <li>Q.You are driving a tipper
+            vehicle carrying loose dry
+            sand. Why should you cover
+            this load properly ?
+            <p>ans=to prevent sand being
+               blown into the eyes of
+               other road users  </p>
+         </li>
+
+
+    
+         <li>Q.How many people can you
+            carry over the load carried on
+            a truck?
+            <p>ans=none</p>
+         </li>
+
+
+    
+         <li>Q.What should be checked first
+            before turning to the left?
+            <p>ans=the left side mirror</p>
+         </li>
+
+
+    
+         <li>Q.You are about to move off
+            you should always
+            <p>ans=using your
+               mirrors look
+               behind and give
+               proper signal</p>
+         </li>
+
+
+    
+         <li>Q.At road junction which of the
+            following are most at risk
+            <p>ans=both</p>
+         </li>
+
+
+    
+         <li>Q.The turning circle of a vehicle
+            is the
+            <p>ans=amount of space needed
+               for the vehicle to turn</p>
+         </li>
+
+
+    
+         <li>Q.Before braking in wet
+            condition you should make
+            sure as far as possible that
+            <p>ans=your vehicle is traveling
+               slowly in a straight line</p>
+         </li>
+
+
+    
+         <li>Q.Your vehicle broken down on
+            a motor way you have
+            several passengers on board
+            you should
+            <p>ans=stop the vehicle
+               on the left side of
+               the road as you
+               can</p>
+         </li>
+
+
+    
+         <li>Q.Wiper fitted on the
+            windscreen of a vehicle is
+            <p>ans=for cleaning the wind
+               shield at any season</p>
+         </li>
+
+
+    
+         <li>Q.A motor cycle rider observes
+            a signboard which indicates
+            "Restrictions ends", can he
+            travel at a speed of
+            <p>ans=not more than 50km/hr </p>
+         </li>
+
+
+    
+         <li>Q.The correct procedure for
+            stopping a vehicle not
+            equipped with anti lock brake
+            system
+            <p>ans=apply the foot brake firmly
+               once until the vehicle has
+               been stopped</p>
+         </li>
+
+
+    
+         <li>Q.You are driving a vehicle
+            fitted with a speed governor
+            you should be careful when
+            <p>ans=overtaking
+               another vehicle</p>
+         </li>
+
+
+    
+         <li>Q.Which of the following is a
+            legal requirement for every
+            vehicle
+            <p>ans=First aid box</p>
+         </li>
+
+
+    
+         <li>Q.A driver of a motor car driving
+            behind a long truck can keep
+            a braking distance
+            <p>ans=safe distance </p>
+         </li>
+
+
+    
+         <li>Q.Traffic signs includes
+            <p>ans=all of the above </p>
+         </li>
+
+
+    
+         <li>Q.What are the dangerous
+            substances that can be
+            carried on public service
+            vehicle
+            <p>ans=fuel and lubricant of the
+               vehicles</p>
+         </li>
+
+
+    
+         <li>Q.No driver of a motor vehicle
+            shall sound horn on  
+            <p>ans=prohibited areas by
+               notification of the authority</p>
+         </li>
+
+
+    
+         <li>Q.Which of the safety device
+            fitted in Light Motor vehicle
+            protects the driver from
+            injury
+            <p>ans=Seat belt</p>
+         </li>
+
+
+    
+         <li>Q.Basic safety requirements of
+            a two wheeler
+            <p>ans=both of the above</p>
+         </li>
+
+
+    
+         <li>Q.Pedestrians should walk on
+            the ----------------------side of
+            the road
+            <p>ans=right</p>
+         </li>
+
+
+    
+         <li>Q.Things to be checked before
+            a long drive
+            <p>ans=all of the above</p>
+         </li>
+
+
+    
+         <li>Q.Reverse driving is permitted
+            only for
+            <p>ans=Minimum
+               distance required
+               for changing
+               direction</p>
+         </li>
+
+
+    
+         <li>Q.Precautions to be followed
+            during parking at night
+            <p>ans=park out side of
+               the carriage way
+               and use park
+               light and hand
+               brake</p>
+         </li>
+
+
+    
+         <li>Q.Use of LPG as fuel in vehicle 
+            <p>ans=can be used after
+               certification from
+               authorities</p>
+         </li>
+
+
+    
+         <li>Q.Using LPG
+            <p>ans=all of the above </p>
+         </li>
+
+
+    
+         <li>Q.On roads with defined lanes
+            <p>ans=use appropriate
+               indicator signal
+               before changing
+               lanes</p>
+         </li>
+
+
+    
+         <li>Q.Towing is permitted only for
+            <p>ans=mechanically
+               disabled or
+               incompletely
+               assembled motor
+               vehicles</p>
+         </li>
+
+
+    
+         <li>Q.During night, a car driving
+            towards you with high beam
+            on, the driver of that car is
+            <p>ans=driving with bad
+               manners since
+               high beams blind
+               others</p>
+         </li>
+
+
+    
+         <li>Q.When you want to change
+            from one lane to another you
+            should .....
+            <p>ans=both of the above</p>
+         </li>
+
+
+    
+         <li>Q.When you are driving in a
+            four lane road, the vehicle in
+            front of you is moving slowly
+            and driving in the right lane
+            and the road ahead is clear,
+            for overtaking you should
+            <p>ans=pass the vehicle from the
+               right hand side after
+               getting signal from the
+               vehicle at the front</p>
+         </li>
+
+
+    
+         <li>Q.You are moving into the
+            street from a parallel parking
+            space, you should
+            <p>ans=show signal to other traffic
+               and then move carefully</p>
+         </li>
+
+
+    
+         <li>Q.While on a main road,
+            another vehicle enters from a
+            cross road, which vehicle has
+            the "Right of way"_x000D_
+            <p>ans=Vehicle on the
+               main road</p>
+         </li>
+
+
+    
+         <li>Q.In lane traffic,before making
+            a right turn you should be in
+            <p>ans=extreme right lane </p>
+         </li>
+
+
+    
+         <li>Q.If your vehicle hits a
+            pedestrian you should
+            <p>ans=help the injured for
+               medical aid identify
+               yourself and then report
+               to police</p>
+         </li>
+
+
+    
+         <li>Q.You should not over take
+            <p>ans=when the road
+               ahead is not
+               visible</p>
+         </li>
+
+
+    
+         <li>Q.Reversing is prohibited in 
+            <p>ans=in one way </p>
+         </li>
+
+
+    
+         <li>Q.While driving on wet or
+            slippery road
+            <p>ans=avoid sudden braking and
+               acceleration</p>
+         </li>
+
+
+    
+         <li>Q.While driving a motor cycle
+            behind a four wheeler , you
+            should
+            <p>ans=stay slightly on the right or
+               left of the vehicle</p>
+         </li>
+
+
+    
+         <li>Q.While driving a motor cycle or
+            an auto rickshaw hand
+            signals can be shown by
+            using
+            <p>ans=right hand only</p>
+         </li>
+
+
+    
+         <li>Q.While parking the vehicle,
+            you should
+            <p>ans=park the vehicle
+               in such a way
+               that it does not
+               obstruct or make
+               inconvenience to
+               other road users</p>
+         </li>
+
+
+    
+         <li>Q.To drive a vehicle with
+            expired insurance, one
+            <p>ans=should not drive </p>
+         </li>
+
+
+    
+         <li>Q.A person affected by a motor
+            vehicle accident can apply for
+            compensation before
+            <p>ans=Motor Accident Claims
+               Tribunal</p>
+         </li>
+
+
+    
+         <li>Q.The penalty for driving a
+            vehicle under the influence of
+            drugs or alcohol are
+            <p>ans=imprisonment
+               upto six months,
+               fine upto 2000 or
+               both_x000D_</p>
+         </li>
+
+
+    
+         <li>Q.Before leaving your parked
+            vehicle, you should
+            <p>ans=stop the engine, remove
+               key and engage hand
+               brake</p>
+         </li>
+
+
+    
+         <li>Q.A motor driving licence
+            issued in a State is valid
+            <p>ans=throughout India </p>
+         </li>
+
+
+    
+         <li>Q.You can hold
+            <p>ans=only one licence </p>
+         </li>
+
+
+    
+         <li>Q.Can you give a motor vehicle
+            for driving to a person who
+            does not have a valid
+            licence?
+            <p>ans=No, since it is a serious
+               offence</p>
+         </li>
+
+
+    
+         <li>Q.Whether extra head light can
+            be provided other than the
+            standard head lights.
+            <p>ans=No, you should not </p>
+         </li>
+
+
+    
+         <li>Q.Driving of a vehicle with the
+            pollution values exceeding
+            the limits.
+            <p>ans=is an offence under law </p>
+         </li>
+
+
+    
+         <li>Q.Abrupt braking shall not be
+            resorted to
+            <p>ans=unless it is
+               absolutely
+               necessary</p>
+         </li>
+
+
+    
+         <li>Q.Attaching or hanging of
+            something on the rear view
+            mirror is
+            <p>ans=against
+               regulation</p>
+         </li>
+
+
+    
+         <li>Q.While passing a procession,
+            body of troops or men at
+            work you should
+            <p>ans=proceed with not more
+               than 25 Km/hr and
+               carefully</p>
+         </li>
+
+
+    
+         <li>Q.To stop a motor cycle 
+            <p>ans=apply both front and rear
+               brakes simultaneously</p>
+         </li>
+
+
+    
+         <li>Q.While travelling together
+            (group riding) two or more
+            motor cycles can take the
+            position
+            <p>ans=maintain the lane in a
+               staggered position
+               keeping a proper distance
+               between motor cycle</p>
+         </li>
+
+
+    
+         <li>Q.While approaching a section
+            of road way when there is
+            loose sand or gravel, you
+            should
+            <p>ans=go as slowly as possible </p>
+         </li>
+
+
+    
+         <li>Q.You can conserve fuel when
+            you drive the vehicle at
+            <p>ans=a moderate uniform
+               speed of 45-55 KMPH in
+               top gear</p>
+         </li>
+
+
+    
+         <li>Q.Exhaust of your vehicle
+            contains
+            <p>ans=carbon monoxide,
+               nitrogen oxide, and hydro
+               carbon</p>
+         </li>
+
+
+    
+         <li>Q.Failed to produce the P.U.C
+            Certificate within 7 days of
+            the detection by the
+            Inspecting officer will attract
+            <p>ans=Suspension of
+               Registration Certificates</p>
+         </li>
+
+
+    
+         <li>Q.Which is the poison gas
+            emitted through the exhaust
+            gas of petrol vehicle
+            <p>ans=carbon monoxide</p>
+         </li>
+
+
+    
+         <li>Q.It is dangerous to drive with
+            bald(worn out) tyres, since
+            <p>ans=It has little road grip</p>
+         </li>
+
+
+    
+         <li>Q.A vehicle with a temporary
+            Registration number plate
+            can be used on road
+            <p>ans=only for the purpose of
+               registration</p>
+         </li>
+
+
+    
+         <li>Q.Over speeding or dangerous
+            driving may
+            <p>ans=is an offence and is
+               punishable</p>
+         </li>
+
+
+    
+         <li>Q.Clutch riding or Riding on
+            clutch means
+            <p>ans=keeping a foot on the
+               clutch pedal</p>
+         </li>
+
+
+    
+         <li>Q.When a vehicle is
+            approaching with flashing
+            red or blue light you should
+            <p>ans=keep to the left of
+               the road and
+               slow down</p>
+         </li>
+
+
+    
+         <li>Q.You can open the doors on
+            the traffic side(right side)
+            when
+            <p>ans=traffic is clear</p>
+         </li>
+
+
+    
+         <li>Q.To park in a space where
+            there is room for only one
+            car. You should
+            <p>ans=park carefully into the
+               parking space</p>
+         </li>
+
+
+    
+         <li>Q.When your vehicle skid while
+            driving, You should
+            <p>ans=turn the steering wheel in
+               the direction of the car is
+               skidding</p>
+         </li>
+
+
+    
+         <li>Q.Fitment of a multi toned horn
+            in a vehicle is
+            <p>ans=is against law </p>
+         </li>
+
+
+    
+         <li>Q.Flashing yellow traffic light
+            means
+            <p>ans=slow down and proceed
+               with caution</p>
+         </li>
+
+
+    
+         <li>Q.When you observe a yellow
+            traffic light glowing in an
+            intersection, you should
+            <p>ans=proceed across the
+               intersection with caution</p>
+         </li>
+
+
+    
+         <li>Q.A flashing red light means
+            <p>ans=stop and proceed
+               with caution</p>
+         </li>
+
+
+    
+         <li>Q.When you are approaching a
+            round to which you are about
+            to enter you should
+            <p>ans=give way to the vehicles
+               coming from the right
+               direction</p>
+         </li>
+
+
+    
+         <li>Q.When you approach an
+            intersection and you are in
+            main road without traffic
+            lights, police man and traffic
+            signs, you should
+            <p>ans=slow down and
+               be cautious to
+               negotiate the
+               intersection</p>
+         </li>
+
+
+    
+         <li>Q.Emergency vehicles means 
+            <p>ans=ambulance and fire
+               service vehicles</p>
+         </li>
+
+
+    
+         <li>Q.Drivers should not sound
+            horn
+            <p>ans=at silent zone </p>
+         </li>
+
+
+    
+         <li>Q.Registration numbers should
+            be illuminated by
+            <p>ans=white light </p>
+         </li>
+
+
+    
+         <li>Q.Mandatory signs are
+            exhibited in
+            <p>ans=circular shape
+               except stop and
+               give way signs</p>
+         </li>
+
+
+    
+         <li>Q.Cautionary signs are
+            exhibited in
+            <p>ans=triangular shape </p>
+         </li>
+
+
+    
+         <li>Q.Informative signs are
+            exhibited in
+            <p>ans=rectangular shape</p>
+         </li>
+
+
+    
+         <li>Q.A school bus can be
+            identified by
+            <p>ans=Creame yellow
+               paint</p>
+         </li>
+
+
+    
+         <li>Q.While you intend to take a
+            right or left turn, the
+            sequence of action which you
+            have to do
+            <p>ans=gear -mirror-
+               signal</p>
+         </li>
+
+
+    
+         <li>Q.The sequence of operation
+            when your vehicle moves
+            from a stationary position are
+            <p>ans=start-gear-mirror-signal-
+               move</p>
+         </li>
+
+
+    
+         <li>Q.The safe way to stop the
+            vehicle
+            <p>ans=press brake and then
+               clutch</p>
+         </li>
+
+
+    
+         <li>Q.The safest way to negotiate
+            to steep descent
+            <p>ans=use higher torque
+               gear with brake</p>
+         </li>
+
+
+    
+         <li>Q.If your vehicle became break
+            down during night
+            <p>ans=stop, use hand
+               brake and exhibit
+               hazardous
+               warning light</p>
+         </li>
+
+
+    
+         <li>Q.When a cow is standing
+            across the road
+            <p>ans=pass it from behind </p>
+         </li>
+
+
+    
+         <li>Q.Painting olive green in a
+            private motor car is
+            <p>ans=not permitted</p>
+         </li>
+
+
+    
+         <li>Q.For higher power, the gear to
+            be used
+            <p>ans=1st gear</p>
+         </li>
+
+
+    
+         <li>Q.Abrupt braking by driver 
+            <p>ans=is allowed for
+               safety reason</p>
+         </li>
+
+
+    
+         <li>Q.Vehicle with left hand
+            controls
+            <p>ans=can be used with
+               signalling device only</p>
+         </li>
+
+
+    
+         <li>Q.An accident victim can be
+            treated by
+            <p>ans=any registered medical
+               practitioner or doctor</p>
+         </li>
+
+
+    
+         <li>Q.While parking your vehicle on
+            a downward gradient, in
+            addition to the application of
+            hand brake, the gear
+            engaged should be
+            <p>ans=reverse gear</p>
+         </li>
+
+    
+         <li>Q.While turning to right or left it
+            is more safe if you
+            <p>ans=use both light indicators
+               and hand signal</p>
+         </li>
+
+    
+         <li>Q.A driver shall drive in one
+            way
+            <p>ans=only in the
+               direction
+               specified by the
+               sign board</p>
+         </li>
+    
+    
+         <li>Q.On ghat roads, when vehicles
+            approach from the opposite
+            sides the driver travelling
+            down hill shall
+            <p>ans=give preference to the
+               vehicles going up</p>
+         </li>
+
+    
+         <li>Q.When you leave a vehicle in
+            a dangerous position, you are
+            inviting action under
+            <p>ans=section 122 </p>
+         </li>
+
+
+    
+    
+         <li>Q.Driving under the influence of
+            drugs or alcohol invites
+            actions under
+            <p>ans=section 185 </p>
+         </li>
+
+
+    
+    
+         <li>Q.Section 131 of MV Act 1988
+            lays down the duties of the
+            driver_x000D_
+            <p>ans=regarding the precautions
+               at unguarded railway
+               level crossing</p>
+         </li>
+
+
+    
+    
+         <li>Q.Maximum speed limit of an
+            Ambulance
+            <p>ans=60 km/hr </p>
+         </li>
+
+
+    
+    
+         <li>Q.Whether audio-visual
+            equipments are permitted in
+            any class of vehicle? if so, in
+            which class
+            <p>ans=contract carriage except
+               AR</p>
+         </li>
+
+
+        
+         <li>Q.Under which circumstance
+            you will avoid overtaking
+            <p>ans=on a curve</p>
+         </li>
+
+
+        
+         <li>Q.Which type of parking is
+            more suitable on wide roads
+            <p>ans=inclined </p>
+         </li>
+
+
+        
+         <li>Q.When a pedastrian Steps in
+            to a zebra line in front of you
+            to cross the road
+            <p>ans=stop befor the
+               stop line and
+               treat it as a stop
+               signal</p>
+         </li>
+
+
+        
+         <li>Q.Using mobile phone while
+            driving can be punished with
+            <p>ans=Disqualify from holding the
+               driving licence Under
+               CMVR 21(25)</p>
+         </li>
+
+
+        
+         <li>Q.How many students aged 5
+            to 12 are permitted to travel
+            in an auto rickshaw
+            <p>ans=6</p>
+         </li>
+
+
+        
+         <li>Q.While driving behind a motor
+            cycle on a badly maintained
+            road you should
+            <p>ans=keep safe distance</p>
+         </li>
+
+
+        
+         <li>Q.If you are fined for any traffic
+            violation, you must feel
+            <p>ans=to correct your attitude in
+               future</p>
+         </li>
+
+
+        
+         <li>Q.If permitted, a free turn can
+            be taken in a junction
+            <p>ans=while taking a left
+               turn</p>
+         </li>
+
+
+        
+         <li>Q.Seat belts have to be used by
+            <p>ans=Both</p>
+         </li>
+
+
+        
+         <li>Q.Over loading of any kind is
+            <p>ans=prohibited under
+               law</p>
+         </li>
+
+
+        
+         <li>Q.Not using seat belt can lead
+            to a fine of
+            <p>ans=Rs. 100/</p>
+         </li>
+
+
+        
+         <li>Q.Driving by a drunken driver
+            is punishable if the quantity of
+            alcohol in blood
+            <p>ans=exceeds
+               30mg/100ml of
+               blood</p>
+         </li>
+
+
+        
+         <li>Q.Person sitting or standing by
+            the side of the driver causing
+            inconvenience to control the
+            vehicle
+            <p>ans=is not allowed </p>
+         </li>
+
+
+        
+         <li>Q.Vehicle with left hand
+            steering control shall be used
+            <p>ans=by using both of the
+               above</p>
+         </li>
+
+
+        
+         <li>Q.Carrying of load which
+            projects backwards beyond
+            the vehicle is
+            <p>ans=permitted only to extend
+               upto one meter from the
+               rear end of the vehicle
+               with suitable warning lights
+               or flags</p>
+         </li>
+
+
+        
+         <li>Q.How can we overcome the
+            reduction of braking action
+            after water servicing
+            <p>ans=by operating the brake at
+               several times at a slow
+               driving speed</p>
+         </li>
+
+
+        
+         <li>Q.Driver driving a vehicle in a
+            public place without a
+            licence, is liable for
+            <p>ans=penalty for the driver and
+               the owner and/ or seizure
+               of vehicle</p>
+         </li>
+
+
+        
+         <li>Q.In this road you should not
+            <p>ans=Park the vehicle </p>
+         </li>
+
+
+        
+         <li>Q.Can we allow any person to
+            travel along with the driver of
+            a tractor
+            <p>ans=No</p>
+         </li>
+
+        
+         <li>Q.When the visibility becomes
+            very low, during the day time
+            in rainy season, the driver
+            shall
+            <p>ans=use head light </p>
+         </li>
+
+        
+
+         
+    </ul>
+    <script>
+        // Add event listener to the filter input
+        document.getElementById('filterInput').addEventListener('keyup', filterItems);
+
+        function filterItems() {
+            // Get input value and convert to lowercase
+            var filterValue = document.getElementById('filterInput').value.toLowerCase();
+            // Get list items
+            var items = document.querySelectorAll('#filterList li');
+            // Loop through list items
+            items.forEach(function (item) {
+                // Get text content of each item and convert to lowercase
+                var textContent = item.textContent.toLowerCase();
+                // Check if item matches filter value
+                if (textContent.indexOf(filterValue) !== -1) {
+                    // If it matches, display the item
+                    item.style.display = 'block';
+                } else {
+                    // If it doesn't match, hide the item
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>
